@@ -25,7 +25,7 @@ Include the downloaded dependencies in the ```<head>``` section of the html.
 ```
 
 ### 2. Add ng-gauge to the app.js
-for Example
+for example
 ```html
 angular.module('ng-gauge-example', [
   'ng-gauge'
