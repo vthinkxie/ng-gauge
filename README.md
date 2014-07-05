@@ -25,7 +25,7 @@ Include the downloaded dependencies in the ```<head>``` section of the html.
 ```
 
 ### 2. Add ng-gauge to the app.js
-For Example
+for Example
 ```html
 angular.module('ng-gauge-example', [
   'ng-gauge'
@@ -36,7 +36,7 @@ angular.module('ng-gauge-example', [
 ```html
 <ng-gauge t-value="{{example.tVal}}" b-value="{{example.bVal}}" t-label="Memory" b-label="HDD" unit="%"></ng-gauge>
 ```
-t-value for the top value t-label for the top label
-same as the b-value and b-label
-unit is used for the value
+t-value for the top value t-label for the top label  
+same as the b-value and b-label  
+unit is used for the value  
 **More detail can be found in example file**
