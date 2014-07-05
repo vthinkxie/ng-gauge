@@ -1,0 +1,85 @@
+/*Angular ng-gauge*/
+.ng-gauge {
+  position: relative;
+  padding: 4px;
+  width: 200px;
+  height: 200px;
+  margin: 2px 2px;
+  border-radius: 100px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 300;
+}
+.ng-gauge-label {
+  font-size: 12px;
+  padding-bottom: 3px;
+  margin-top: 16px;
+  font-size: 20px;  
+}
+.ng-gauge-value {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Lato";
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+.ng-gauge-value.ng-gauge-bottom{
+    margin-top: 35px;
+}
+.ng-gauge-inner {
+  background-color: #555;  
+  border: 3px solid #777;
+  border-radius: 100px;
+  height: 100%;
+  position: relative;
+}
+.ng-gauge-indicator {
+  width: 100px;
+  height: 200px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+.ng-gauge-container-left,
+.ng-gauge-container-right {
+  position: absolute;
+  margin: -4px 0;
+  width: 100px;
+  height: 200px;
+  z-index: 0;
+  overflow: hidden;
+}
+.ng-gauge-container-left {
+  left: 0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.ng-gauge-container-left .ng-gauge-indicator {
+  background: #f66d3a;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  -webkit-transform-origin: 100px 100px;
+  -moz-transform-origin: 100px 100px;
+  -ms-transform-origin: 100px 100px;
+  -o-transform-origin: 100px 100px;
+  transform-origin: 100px 100px;
+}
+.ng-gauge-container-right {
+  right: 0;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.ng-gauge-container-right .ng-gauge-indicator {
+  background: #34c0f5;  
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  -webkit-transform-origin: 0 100px;
+  -moz-transform-origin: 0 100px;
+  -ms-transform-origin: 0 100px;
+  -o-transform-origin: 0 100px;
+  transform-origin: 0 100px;
+
+}

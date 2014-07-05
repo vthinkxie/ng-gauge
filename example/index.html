@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ng-gauge example</title>
+	<link rel="stylesheet" href="../src/ng-gauge.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato|Lobster+Two&subset=latin&v2' rel='stylesheet' type='text/css'>	
+	<script src="angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="../src/ng-gauge.js"></script>
+	<style type="text/css">
+	body{
+		font-family: 'Lato';
+	}
+	*,
+	*:before,
+	*:after {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+	          
+	  box-sizing: border-box;
+	}
+	</style>
+</head>
+<body ng-app="ng-gauge-example">
+	<div ng-controller="example" id="example">
+		<ng-gauge t-value="{{example.tVal}}" b-value="{{example.bVal}}" t-label="Memory" b-label="HDD" unit="%"></ng-gauge>
+	</div>
+</body>
+</html>
