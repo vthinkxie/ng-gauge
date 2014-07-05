@@ -1,7 +1,7 @@
 ng-gauge
 ========
 
-A light weight tool to create gauge chart with AngularJs
+A light weight tool to create gauge chart with AngularJS
 ##![Gauge Charts](https://raw.githubusercontent.com/vthinkxie/ng-gauge/master/example/example.png "Gauge Charts")
 
 ## Basic Quick Start 
